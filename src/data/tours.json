@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Angkor Wat Sunrise Tour",
+        "duration": "Half-day",
+        "price": 35,
+        "description": "Witness the breathtaking sunrise over Angkor Wat, followed by a guided tour of the main temple complex.",
+        "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "popularity": 5
+    },
+    {
+        "id": 2,
+        "title": "Small Circuit Tour",
+        "duration": "Full-day",
+        "price": 45,
+        "description": "Explore the most famous temples of Angkor, including Angkor Wat, Angkor Thom, Bayon, and Ta Prohm.",
+        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "popularity": 4
+    },
+    {
+        "id": 3,
+        "title": "Grand Circuit Tour",
+        "duration": "Full-day",
+        "price": 55,
+        "description": "Discover the outer temples of Angkor, including Preah Khan, Neak Pean, Ta Som, and East Mebon.",
+        "image": "https://images.unsplash.com/photo-1542663323-2296b526005c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "popularity": 3
+    },
+    {
+        "id": 4,
+        "title": "Banteay Srei & Kbal Spean",
+        "duration": "Full-day",
+        "price": 65,
+        "description": "Visit the exquisite 'Citadel of Women' with its intricate carvings, and the 'River of a Thousand Lingas'.",
+        "image": "https://images.unsplash.com/photo-1594202133554-39145b00f848?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "popularity": 2
+    },
+    {
+        "id": 5,
+        "title": "Angkor Explorer",
+        "duration": "Multi-day",
+        "price": 120,
+        "description": "A comprehensive two-day tour covering all the major temples and some hidden gems.",
+        "image": "https://images.unsplash.com/photo-1569952185075-d98c75c69b13?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "popularity": 5
+    },
+    {
+        "id": 6,
+        "title": "Jungle Temple Adventure",
+        "duration": "Full-day",
+        "price": 60,
+        "description": "Venture off the beaten path to the remote temples of Beng Mealea and Koh Ker.",
+        "image": "https://images.unsplash.com/photo-1568365574313-014055ce7343?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "popularity": 4
+    }
+]

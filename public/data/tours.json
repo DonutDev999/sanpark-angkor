@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Angkor Wat Sunrise Tour",
+        "duration": "Half-day",
+        "price": 35,
+        "description": "Witness the breathtaking sunrise over Angkor Wat, followed by a guided tour of the main temple complex.",
+        "imageKey": "sunrise-tour",
+        "image": "/images/tours/angkor-wat-sunrise-800.webp",
+        "popularity": 5
+    },
+    {
+        "id": 2,
+        "title": "Small Circuit Tour",
+        "duration": "Full-day",
+        "price": 45,
+        "description": "Explore the most famous temples of Angkor, including Angkor Wat, Angkor Thom, Bayon, and Ta Prohm.",
+        "imageKey": "small-circuit",
+        "image": "/images/tours/bayon-temple-800.webp",
+        "popularity": 4
+    },
+    {
+        "id": 3,
+        "title": "Grand Circuit Tour",
+        "duration": "Full-day",
+        "price": 55,
+        "description": "Discover the outer temples of Angkor, including Preah Khan, Neak Pean, Ta Som, and East Mebon.",
+        "imageKey": "grand-circuit",
+        "image": "/images/tours/ta-prohm-800.webp",
+        "popularity": 3
+    },
+    {
+        "id": 4,
+        "title": "Banteay Srei & Kbal Spean",
+        "duration": "Full-day",
+        "price": 65,
+        "description": "Visit the exquisite 'Citadel of Women' with its intricate carvings, and the 'River of a Thousand Lingas'.",
+        "imageKey": "banteay-srei-tour",
+        "image": "/images/tours/banteay-srei-800.webp",
+        "popularity": 2
+    },
+    {
+        "id": 5,
+        "title": "Angkor Explorer",
+        "duration": "Multi-day",
+        "price": 120,
+        "description": "A comprehensive two-day tour covering all the major temples and some hidden gems.",
+        "imageKey": "angkor-explorer",
+        "image": "/images/tours/angkor-reflection-800.webp",
+        "popularity": 5
+    },
+    {
+        "id": 6,
+        "title": "Jungle Temple Adventure",
+        "duration": "Full-day",
+        "price": 60,
+        "description": "Venture off the beaten path to the remote temples of Beng Mealea and Koh Ker.",
+        "imageKey": "jungle-adventure",
+        "image": "/images/tours/jungle-temple-800.webp",
+        "popularity": 4
+    }
+]

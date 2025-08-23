@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Sokha",
+        "image": "https://via.placeholder.com/300",
+        "description": "Sokha is a very experienced tour guide with a deep knowledge of the history of the Angkor temples. He is fluent in English and French.",
+        "languages": ["English", "French", "Khmer"]
+    },
+    {
+        "id": 2,
+        "name": "Vannak",
+        "image": "https://via.placeholder.com/300",
+        "description": "Vannak is a young and energetic tour guide who is passionate about sharing the culture of Cambodia with visitors. He is fluent in English and Japanese.",
+        "languages": ["English", "Japanese", "Khmer"]
+    },
+    {
+        "id": 3,
+        "name": "Srey",
+        "image": "https://via.placeholder.com/300",
+        "description": "Srey is a friendly and knowledgeable tour guide who is great with families. She is fluent in English and Chinese.",
+        "languages": ["English", "Chinese", "Khmer"]
+    }
+]
