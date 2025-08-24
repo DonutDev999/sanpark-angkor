@@ -15,5 +15,6 @@
     "api/**/*.js": {
       "runtime": "@vercel/node@3.0.7"
     }
-  }
+  },
+  "nodeVersion": "18.x"
 }
