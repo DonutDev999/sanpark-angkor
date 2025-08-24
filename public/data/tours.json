@@ -1,62 +1,149 @@
 [
     {
         "id": 1,
-        "title": "Angkor Wat Sunrise Tour",
-        "duration": "Half-day",
+        "title": "Angkor Temple Discovery",
+        "duration": "1-2 Days (Your Choice)",
         "price": 35,
-        "description": "Witness the breathtaking sunrise over Angkor Wat, followed by a guided tour of the main temple complex.",
-        "imageKey": "sunrise-tour",
-        "image": "/images/tours/angkor-wat-sunrise-800.webp",
-        "popularity": 5
-    },
-    {
-        "id": 2,
-        "title": "Small Circuit Tour",
-        "duration": "Full-day",
-        "price": 45,
-        "description": "Explore the most famous temples of Angkor, including Angkor Wat, Angkor Thom, Bayon, and Ta Prohm.",
-        "imageKey": "small-circuit",
-        "image": "/images/tours/bayon-temple-800.webp",
-        "popularity": 4
-    },
-    {
-        "id": 3,
-        "title": "Grand Circuit Tour",
-        "duration": "Full-day",
-        "price": 55,
-        "description": "Discover the outer temples of Angkor, including Preah Khan, Neak Pean, Ta Som, and East Mebon.",
-        "imageKey": "grand-circuit",
-        "image": "/images/tours/ta-prohm-800.webp",
-        "popularity": 3
-    },
-    {
-        "id": 4,
-        "title": "Banteay Srei & Kbal Spean",
-        "duration": "Full-day",
-        "price": 65,
-        "description": "Visit the exquisite 'Citadel of Women' with its intricate carvings, and the 'River of a Thousand Lingas'.",
-        "imageKey": "banteay-srei-tour",
-        "image": "/images/tours/banteay-srei-800.webp",
-        "popularity": 2
-    },
-    {
-        "id": 5,
-        "title": "Angkor Explorer",
-        "duration": "Multi-day",
-        "price": 120,
-        "description": "A comprehensive two-day tour covering all the major temples and some hidden gems.",
-        "imageKey": "angkor-explorer",
+        "pricePerDay": 35,
+        "pricePerPerson": true,
+        "description": "Professional Angkor temple experience at $35 per person, per day. Choose 1 day for highlights or 2 days for complete discovery.",
+        "imageKey": "angkor-2-day",
         "image": "/images/tours/angkor-reflection-800.webp",
-        "popularity": 5
-    },
-    {
-        "id": 6,
-        "title": "Jungle Temple Adventure",
-        "duration": "Full-day",
-        "price": 60,
-        "description": "Venture off the beaten path to the remote temples of Beng Mealea and Koh Ker.",
-        "imageKey": "jungle-adventure",
-        "image": "/images/tours/jungle-temple-800.webp",
-        "popularity": 4
+        "popularity": 5,
+        "isFlexible": true,
+        "dayOptions": [1, 2],
+        "detailedDescription": "Experience the magnificent Angkor Archaeological Park at your own pace. Choose 1 day for essential highlights or 2 days for comprehensive exploration. This professionally guided tour combines must-see iconic temples with atmospheric ruins and serene locations.",
+        "pricingOptions": {
+            "1day": {
+                "price": 35,
+                "priceDisplay": "$35 per person",
+                "title": "1-Day Highlights Tour",
+                "description": "Perfect introduction covering the most iconic temples including sunrise at Angkor Wat"
+            },
+            "2day": {
+                "price": 70,
+                "priceDisplay": "$35 per person, per day (2 days = $70 per person)",
+                "title": "2-Day Complete Discovery",
+                "description": "Comprehensive exploration of all major temples plus hidden gems and artistic masterpieces"
+            }
+        },
+        "itinerary": {
+            "day1": {
+                "title": "Day 1: Iconic Temples & Sunrise Magic",
+                "note": "Available for both 1-day and 2-day options",
+                "schedule": [
+                    {
+                        "time": "05:00 AM",
+                        "activity": "Hotel pick-up for sunrise tour"
+                    },
+                    {
+                        "time": "05:30 AM",
+                        "activity": "Sunrise at Angkor Wat",
+                        "description": "Witness the breathtaking sunrise over the world's largest religious monument"
+                    },
+                    {
+                        "time": "07:00 AM",
+                        "activity": "Guided tour of Angkor Wat",
+                        "description": "Explore the intricate bas-reliefs and architectural marvels with expert commentary"
+                    },
+                    {
+                        "time": "09:00 AM",
+                        "activity": "Breakfast at local restaurant",
+                        "note": "Own expense - authentic Khmer cuisine available"
+                    },
+                    {
+                        "time": "10:30 AM",
+                        "activity": "Visit Bayon Temple",
+                        "description": "Marvel at the famous smiling faces of Avalokiteshvara in Angkor Thom"
+                    },
+                    {
+                        "time": "12:00 PM",
+                        "activity": "Visit Ta Prohm Temple",
+                        "description": "Explore the atmospheric jungle temple featured in Tomb Raider movie"
+                    },
+                    {
+                        "time": "02:00 PM",
+                        "activity": "Return transfer to hotel"
+                    }
+                ]
+            },
+            "day2": {
+                "title": "Day 2: Hidden Gems & Artistic Masterpieces",
+                "note": "Available only with 2-day option",
+                "schedule": [
+                    {
+                        "time": "09:00 AM",
+                        "activity": "Hotel pick-up"
+                    },
+                    {
+                        "time": "09:30 AM",
+                        "activity": "Visit Neak Poan Temple",
+                        "description": "Discover this serene island temple surrounded by ancient pools"
+                    },
+                    {
+                        "time": "10:30 AM",
+                        "activity": "Visit Preah Khan Temple",
+                        "description": "Explore the vast and atmospheric ruins of this former monastery and university"
+                    },
+                    {
+                        "time": "12:30 PM",
+                        "activity": "Lunch at local restaurant",
+                        "note": "Own expense - traditional Cambodian dishes available"
+                    },
+                    {
+                        "time": "02:00 PM",
+                        "activity": "Visit Banteay Srei Temple",
+                        "description": "Admire the exquisite pink sandstone carvings at the 'Citadel of Women'"
+                    },
+                    {
+                        "time": "04:00 PM",
+                        "activity": "Return transfer to hotel"
+                    }
+                ]
+            }
+        },
+        "pricing": {
+            "baseRate": 35,
+            "currency": "USD",
+            "unit": "per person, per day",
+            "note": "Price is per person, per day. Group discounts available for 4+ people."
+        },
+        "inclusions": [
+            "Licensed English-speaking tour guide",
+            "Private, air-conditioned Toyota car with experienced driver",
+            "Petrol and parking fees",
+            "Hotel pick-up and drop-off",
+            "Bottled water during tours",
+            "Professional commentary and historical insights"
+        ],
+        "exclusions": [
+            "Angkor Archaeological Park entrance tickets (USD $37 for 3-day pass)",
+            "Meals and beverages",
+            "Personal expenses and souvenirs",
+            "Tips for guide and driver (optional but appreciated)"
+        ],
+        "highlights": [
+            "Spectacular sunrise over Angkor Wat",
+            "Iconic smiling faces of Bayon Temple",
+            "Atmospheric jungle temple Ta Prohm",
+            "Serene island temple Neak Poan",
+            "Vast monastic complex Preah Khan",
+            "Exquisite pink sandstone carvings at Banteay Srei"
+        ],
+        "whatToBring": [
+            "Comfortable walking shoes",
+            "Sun hat and sunscreen",
+            "Camera with extra batteries",
+            "Light jacket for early morning",
+            "Respectful clothing (covered shoulders and knees)",
+            "Cash for meals and entrance tickets"
+        ],
+        "importantNotes": [
+            "Sunrise tour starts very early (5:00 AM pickup)",
+            "Angkor Park tickets must be purchased separately",
+            "Respectful dress code required for temple visits",
+            "Tours operate in all weather conditions",
+            "Flexible itinerary can be adjusted based on preferences"
+        ]
     }
 ]
